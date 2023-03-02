@@ -1,0 +1,6 @@
+assign 1 to a,b;
+while (< a 5){
+    print[a];
+    assign +(1,a) to a
+};
+print[a]

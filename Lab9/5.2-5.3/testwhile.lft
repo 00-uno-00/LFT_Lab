@@ -1,0 +1,6 @@
+read[x]; 
+conditional [ 
+            option (! > x 30) do print[+(x,100)] 
+            option (> x 30) do print[+(x,10)]
+            ] 
+else print[x] end

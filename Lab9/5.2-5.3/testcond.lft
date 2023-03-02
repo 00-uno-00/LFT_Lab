@@ -1,0 +1,8 @@
+read[a];
+conditional[
+    option (< a 0) do print[a]
+    option (== a 1) do while (< a 5){print[a];
+                                     assign +(1,a) to a
+                                    }
+] else print[+(a,100)]
+end

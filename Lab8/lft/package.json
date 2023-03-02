@@ -1,0 +1,25 @@
+{
+  "name": "lft",
+  "displayName": "LFT",
+  "description": "LFT syntax highlighting",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "lft",
+      "aliases": ["LFT", "lft"],
+      "extensions": [".lft"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "lft",
+      "scopeName": "source.lft",
+      "path": "./syntaxes/lft.tmLanguage.json"
+    }]
+  }
+}

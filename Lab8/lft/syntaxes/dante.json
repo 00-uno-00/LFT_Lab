@@ -1,0 +1,59 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Dante",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.dante",
+					"match": "\\b(inizio|da|restituisci|restituisce|scorri|funzione|se|altrimenti|infine|prova|errore|sennonché|finché|importa|in|passo|crea|distruggi|eredita|come|eccezione|pubblico|ristretto|interno|valuta|caso|predefinito|lancia|figlio di)\\b"
+				},
+				{
+					"name": "keyword.operator.dante",
+					"match": "\\b(unione|intersezione|modulo)\\b"
+				},
+				{
+					"name": "keyword.operator.dante",
+					"match": "(>|<|<=|>=| è | non è | non | o | e | aut |\\+|\\-|\\/|\\*|\\=|\\.|\\||\\,)"
+				},
+				{
+					"name": "storage.type.dante",
+					"match": "\\b(funzione|intero|decimale|testo|lista|oggetto|booleano|nulla)\\b"
+				},
+				{
+					"name": "comment.block.dante",
+					"begin": "^##",
+					"end": "^##"
+				},
+				{
+					"name": "comment.line.character.dante",
+					"match": "#.*$"
+				},
+				{
+					"name": "constant.language.dante",
+					"match": "\\b(VERO|FALSO)\\b"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.dante",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.dante",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "text.html.dante"
+}

@@ -1,0 +1,12 @@
+assign 1 to a,b;
+conditional[
+    option (<> a 0) do {
+        print[a]
+    } option (== a 2) do print[b]
+] else print[+(2,b)] 
+end;
+print[+(b,a)]
+
+a,b = 1
+if (a != 0 (print[a]) a == 2 (print[b]))else print[b+2]
+print[a+b]

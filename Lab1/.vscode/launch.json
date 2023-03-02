@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch E15",
+            "request": "launch",
+            "mainClass": "",
+            "args": "Bianchi123456 Rossi654321 Bianchi2 B122 654322 Rossi"
+        },
+        {
+            "type": "java",
+            "name": "Launch E14",
+            "request": "launch",
+            "mainClass": "",
+            "args": "654321_Rossi  _123456_Bianchi_ 1234_56Bianchi 123456Bia_nchi"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "args": "123456Bianchi 654321Rossi 2Bianchi 122B 654322 Rossi"
+        }
+    ]
+}

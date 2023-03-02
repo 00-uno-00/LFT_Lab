@@ -1,0 +1,24 @@
+# Opcode meaning
+
+- ldc = push a constant #index from a constant pool (String, int, float, Class, java.lang.invoke.MethodType, java.lang.invoke.MethodHandle, or a dynamically-computed constant) onto the stack 
+- imul = multiply two integers 
+- ineg = negate int 
+- idiv = divide two integers 
+- iadd = add two ints 
+- isub = int subtract 
+- istore = store int value into variable #index
+- ior = bitwise int OR 
+- iand = perform a bitwise AND on two integers 
+- iload = load an int value from a local variable #index
+- if_icmpeq =  	if ints are equal, branch to instruction at branchoffset (signed short constructed from unsigned bytes branchbyte1 << 8 | branchbyte2) 
+- if_icmple = if value1 is less than or equal to value2, branch to instruction at branchoffset (signed short constructed from unsigned bytes branchbyte1 << 8 | branchbyte2) 
+- if_icmplt =  	if value1 is less than value2, branch to instruction at branchoffset (signed short constructed from unsigned bytes branchbyte1 << 8 | branchbyte2) 
+- if_icmpne = if ints are not equal, branch to instruction at branchoffset (signed short constructed from unsigned bytes branchbyte1 << 8 | branchbyte2) 
+- if_icmpge = if value1 is greater than or equal to value2, branch to instruction at branchoffset (signed short constructed from unsigned bytes branchbyte1 << 8 | branchbyte2) 
+- if_icmpgt = if value1 is greater than value2, branch to instruction at branchoffset (signed short constructed from unsigned bytes branchbyte1 << 8 | branchbyte2) 
+- ifne =  	if value is not 0, branch to instruction at branchoffset (signed short constructed from unsigned bytes branchbyte1 << 8 | branchbyte2) 
+- GOto = goes to another instruction at branchoffset (signed short constructed from unsigned bytes branchbyte1 << 8 | branchbyte2) 
+- invokestatic = invoke a static method and puts the result on the stack (might be void); the method is identified by method reference index in constant pool (indexbyte1 << 8 | indexbyte2) 
+- dup = duplicate the value on top of the stack 
+- pop = discard the top value on the stack 
+- label = 

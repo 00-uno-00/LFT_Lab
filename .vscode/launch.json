@@ -1,0 +1,119 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Translator",
+            "request": "launch",
+            "mainClass": "Translator",
+            "projectName": "LFT_b45c6fbb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Valutatore",
+            "request": "launch",
+            "mainClass": "Valutatore",
+            "projectName": "LFT_b45c6fbb"
+        },
+        {
+            "type": "java",
+            "name": "Launch E12",
+            "request": "launch",
+            "mainClass": "E12",
+            "projectName": "LFT_b45c6fbb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Parser",
+            "request": "launch",
+            "mainClass": "Parser",
+            "projectName": "LFT_b45c6fbb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Parser",
+            "request": "launch",
+            "mainClass": "Parser",
+            "projectName": "LFT_6286df3f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lexer",
+            "request": "launch",
+            "mainClass": "Lexer",
+            "projectName": "LFT_6286df3f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lexer",
+            "request": "launch",
+            "mainClass": "Lexer",
+            "projectName": "LFT_b45c6fbb"
+        },
+        {
+            "type": "java",
+            "name": "Launch E110",
+            "request": "launch",
+            "mainClass": "Lab2.E110",
+            "projectName": "LFT_6286df3f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch E12",
+            "request": "launch",
+            "mainClass": "E12",
+            "projectName": "LFT_6286df3f"
+        },
+        {
+            "type": "java",
+            "name": "Launch E13",
+            "request": "launch",
+            "mainClass": "E13",
+            "projectName": "LFT_6286df3f"
+        },
+        {
+            "type": "java",
+            "name": "Launch E14",
+            "request": "launch",
+            "mainClass": "E14",
+            "projectName": "LFT_6286df3f"
+        },
+        {
+            "type": "java",
+            "name": "Launch E15",
+            "request": "launch",
+            "mainClass": "E15",
+            "projectName": "LFT_6286df3f"
+        },
+        {
+            "type": "java",
+            "name": "Launch E16",
+            "request": "launch",
+            "mainClass": "Lab2.E16",
+            "projectName": "LFT_6286df3f"
+        },
+        {
+            "type": "java",
+            "name": "Launch scan",
+            "request": "launch",
+            "mainClass": "scan",
+            "projectName": "LFT_6286df3f"
+        },
+        {
+            "type": "java",
+            "name": "Launch E19",
+            "request": "launch",
+            "mainClass": "Lab2.E19",
+            "args": "/*a**b*/"
+        }
+    ]
+}

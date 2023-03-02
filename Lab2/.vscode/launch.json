@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch E19",
+            "request": "launch",
+            "mainClass": "e19",
+            "args": "/*porcoddio*/"
+        },
+        {
+            "type": "java",
+            "name": "Launch E17",
+            "request": "launch",
+            "mainClass": "Lab2.E17",
+            "args": "Edoardo 1doardo E2oardo Ed3ardo Edo4rdo Edoa5do Edoar6o Edoard7"
+        },
+        {
+            "type": "java",
+            "name": "Launch E16",
+            "request": "launch",
+            "mainClass": "Lab2.E16",
+            "args": "abb aaaabbb bbb abababb abba"
+        },
+        {
+            "type": "java",
+            "name": "Launch E18",
+            "request": "launch",
+            "mainClass": "Lab2.E18",
+            "args": "1e2.3 123 123.5 .567 +7.5 -.7 67e10 1e-2 -.7e2  -.85e-8"
+        }
+    ]
+}

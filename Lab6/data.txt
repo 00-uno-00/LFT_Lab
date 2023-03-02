@@ -1,0 +1,3 @@
+read[x];
+print[x];
+assign 0 to x
